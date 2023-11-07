@@ -54,7 +54,7 @@ body {
 .address-flex{
     display: flex;
     align-items: center;
-    gap: 42px;
+    gap: 40px;
 }
 .header-container{
     width: 1158px;
@@ -138,6 +138,8 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .menu-item:hover,
