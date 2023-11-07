@@ -18,9 +18,7 @@ ul {
 img{
     display: block;
 }
-.none {
 
-}
 /* приховування заголовку */
 .visually-hidden {
     position: absolute;
@@ -41,13 +39,10 @@ body {
     background-color: #ffffff
 }
 
-
 .page-navigation{
     display: flex;
     align-items: center;
     }
-    
-   
 
 .address-flex{
     display: flex;
@@ -67,20 +62,26 @@ body {
     justify-content: space-between;
 }
 
+/* ======== Hero ======== */
 
-button {
-    cursor: pointer;  
+.hero{
+    padding: 188px 0 188px
+}
+.hero-page {
+    min-width: 496px;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #ffffff;
 }
 
-.button-hero {
-    
-}
-
-.button-hero:hover,
-.button-hero:focus {
-    background-color: #404BBF
-}
 .button-hero{
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
     font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -88,8 +89,15 @@ button {
     letter-spacing: 0.04em;
     color: #ffffff;  
     background:#4D5AE5;
+    border-radius: 4px;
     cursor: pointer;
 }
+
+.button-hero:hover,
+.button-hero:focus {
+    background-color: #404BBF
+}
+
 
 .list{
     font-size: 16px;
@@ -174,16 +182,6 @@ button {
     height: 600px;
 }
 
-.hero-page {
-
-    /* Header 1 */
-    font-size: 56px;
-    font-weight: 700;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #ffffff;
-}
 
 .section-adv-item-h {
 
