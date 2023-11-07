@@ -60,8 +60,8 @@ body {
     width: 1158px;
     margin-left:auto;
     margin-right:auto;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 015px;
+    padding-right: 015px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -102,7 +102,7 @@ button {
     color: #434455;
 }
 .page-header {
-    border-bottom: 1px solid #e7e9fc;
+    border-bottom: ;
 }
     
 
