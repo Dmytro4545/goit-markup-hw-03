@@ -54,6 +54,7 @@ body {
 .address-flex{
     display: flex;
     align-items: center;
+    gap: 42px;
 }
 .header-container{
     width: 1158px;
@@ -62,7 +63,8 @@ body {
     padding-left: 16px;
     padding-right: 16px;
     display: flex;
-        align-items: center;
+    align-items: center;
+    justify-content: space-between;
 }
 
 
@@ -112,6 +114,7 @@ button {
     text-transform: uppercase;
     letter-spacing: 0.03em;
     color: #4d5ae5;
+    margin-right: 76px;
 
 }
 
@@ -123,6 +126,8 @@ button {
 .menu {
     display: flex;
     align-items: center;
+    gap: 40px;
+ 
 }
 
 .menu-item {
