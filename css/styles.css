@@ -101,7 +101,9 @@ button {
     letter-spacing: 0.02em;
     color: #434455;
 }
-.page-header {}
+.page-header {
+    border-bottom: 1px solid #e7e9fc;
+}
     
 
 .page-navigation {}
