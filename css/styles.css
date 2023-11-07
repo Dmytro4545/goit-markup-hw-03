@@ -54,15 +54,21 @@ body {
     align-items: center;
     gap: 40px;
 }
-.header-container{
+.container{
     width: 1158px;
     margin-left:auto;
     margin-right:auto;
     padding-left: 015px;
     padding-right: 015px;
-    display: flex;
     align-items: center;
     justify-content: space-between;
+
+}
+
+.header-container{
+
+    display: flex;
+    
 }
 
 
