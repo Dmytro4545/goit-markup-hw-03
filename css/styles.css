@@ -55,6 +55,9 @@ body {
     gap: 40px;
 }
 .container{
+    display: flex;
+}
+.header-container {
     width: 1158px;
     margin-left:auto;
     margin-right:auto;
@@ -62,18 +65,8 @@ body {
     padding-right: 015px;
     align-items: center;
     justify-content: space-between;
-
 }
 
-.header-container{
-
-    display: flex;
-    
-}
-
-
-
-.none {}
 
 button {
     cursor: pointer;  
